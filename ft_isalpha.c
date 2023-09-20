@@ -3,40 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jaurbano <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jaurbano <jaurbano@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/11 12:11:14 by jaurbano          #+#    #+#             */
-/*   Updated: 2023/09/13 12:59:14 by jaurbano         ###   ########.fr       */
+/*   Created: 2023/09/20 16:32:52 by jaurbano          #+#    #+#             */
+/*   Updated: 2023/09/20 16:52:30 by jaurbano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(int a)
+int	ft_isalpha(int c)
 {
-	if ((a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z'))
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 		return (1);
 	else
 		return (0);
 }
-
-/*
-#include <stdio.h>
-#include <ctype.h>
-int	main(void)
-{
-	char c;
-    c = 'Q';
-    printf("\nResult when uppercase alphabet is passed: %d", ft_isalpha(c));
-	printf("\nResult when uppercase alphabet is passed: %d", isalpha(c));
-
-    c = 'q';
-    printf("\nResult when lowercase alphabet is passed: %d", ft_isalpha(c));
-	printf("\nResult when lowercase alphabet is passed: %d", isalpha(c));
-
-    c='+';
-    printf("\nResult when non-alphabetic character is passed: %d", isalpha(c));
-	printf("\nResult when non-alphabetic character is passed: %d", ft_isalpha(c));
-    return 0;
-}
-*/
