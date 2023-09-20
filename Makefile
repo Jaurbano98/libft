@@ -6,11 +6,11 @@
 #    By: jaurbano <jaurbano@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/20 22:04:18 by jaurbano          #+#    #+#              #
-#    Updated: 2023/09/20 22:23:18 by jaurbano         ###   ########.fr        #
+#    Updated: 2023/09/20 22:37:01 by jaurbano         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS			= ft_isalpha.c ft_isdigit.c
+SRCS			= ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c
 
 OBJS			= $(SRCS:.c=.o)
 CC				= gcc
