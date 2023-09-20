@@ -1,36 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jaurbano <jaurbano@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/20 22:11:55 by jaurbano          #+#    #+#             */
-/*   Updated: 2023/09/20 23:24:38 by jaurbano         ###   ########.fr       */
+/*   Created: 2023/09/20 23:21:50 by jaurbano          #+#    #+#             */
+/*   Updated: 2023/09/20 23:24:04 by jaurbano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
+#include "libft.h"
 
-# define LIBFT_H
-
-# include <stdlib.h>
-# include <unistd.h>
-
-int		ft_isalpha(int c);
-
-int		ft_isdigit(int c);
-
-int		ft_isalnum(int c);
-
-int		ft_isascii(int c);
-
-int		ft_isprint(int c);
-
-size_t	ft_strlen(const char *s);
-
-void	*ft_memset(void *b, int c, size_t len);
-
-void	ft_bzero(void *s, size_t n);
-
-#endif
+void	ft_bzero(void *s, size_t n)
+{
+	ft_memset(s, 0, n);
+}
