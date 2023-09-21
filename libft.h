@@ -6,7 +6,7 @@
 /*   By: jaurbano <jaurbano@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 22:11:55 by jaurbano          #+#    #+#             */
-/*   Updated: 2023/09/21 12:45:18 by jaurbano         ###   ########.fr       */
+/*   Updated: 2023/09/21 12:55:50 by jaurbano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,4 +42,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 int		ft_toupper(int c);
 
 int		ft_tolower(int c);
+
+char	*ft_strchr(const char *s, int c);
+
 #endif
