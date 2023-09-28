@@ -6,7 +6,7 @@
 /*   By: jaurbano <jaurbano@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 22:11:55 by jaurbano          #+#    #+#             */
-/*   Updated: 2023/09/28 13:00:58 by jaurbano         ###   ########.fr       */
+/*   Updated: 2023/09/28 13:35:12 by jaurbano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,5 +56,7 @@ void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 
 char	*ft_strnstr(const char *big, const char *little, size_t len);
+
+int		ft_atoi(const char *nptr);
 
 #endif
