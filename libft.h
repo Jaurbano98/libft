@@ -6,7 +6,7 @@
 /*   By: jaurbano <jaurbano@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 22:11:55 by jaurbano          #+#    #+#             */
-/*   Updated: 2023/09/28 11:44:47 by jaurbano         ###   ########.fr       */
+/*   Updated: 2023/09/28 12:16:32 by jaurbano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,5 +48,9 @@ char	*ft_strchr(const char *s, int c);
 void	*ft_memmove(void *dst, const void *src, size_t len);
 
 char	*ft_strrchr(const char *s, int c);
+
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
+
+void	*ft_memchr(const void *s, int c, size_t n);
 
 #endif
