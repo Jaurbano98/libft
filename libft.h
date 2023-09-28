@@ -6,7 +6,7 @@
 /*   By: jaurbano <jaurbano@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 22:11:55 by jaurbano          #+#    #+#             */
-/*   Updated: 2023/09/21 12:55:50 by jaurbano         ###   ########.fr       */
+/*   Updated: 2023/09/28 11:23:26 by jaurbano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,7 @@ int		ft_toupper(int c);
 int		ft_tolower(int c);
 
 char	*ft_strchr(const char *s, int c);
+
+void	*ft_memmove(void *dst, const void *src, size_t len);
 
 #endif
