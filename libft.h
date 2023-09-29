@@ -6,7 +6,7 @@
 /*   By: jaurbano <jaurbano@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 22:11:55 by jaurbano          #+#    #+#             */
-/*   Updated: 2023/09/28 16:15:18 by jaurbano         ###   ########.fr       */
+/*   Updated: 2023/09/28 16:39:21 by jaurbano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,5 +62,7 @@ int		ft_atoi(const char *nptr);
 void	*ft_calloc(size_t nmemb, size_t size);
 
 char	*ft_strdup(const char *s);
+
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 #endif
